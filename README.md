@@ -31,7 +31,7 @@ For both datasets, we splited the dataset into 3 subset: Train, Val, Test.
 
 ## Usage:
 
-### Weights and Biases (Wandb)
+### Weights and Biases
 
 To train our models we used [Weights and Biases](https://wandb.ai/site).
 Weights and Biases allows to do experiment tracking, dataset versioning, model management, training visualisation for ML projects.
@@ -179,9 +179,9 @@ Please visit `Notebooks/Latent-Space-Exploration.ipynb`. This notebook typically
 ![MADA](/Notebooks/MADA_Feature_representation.png)
 
 ## Contributors
-This project is part of a 2021 Deep Learning Class project (at Boston University CS523).
-The code has been realized by Marvin Martin (marvtin@bu.edu) and Anirudh Mandahr (anirudh1@bu.edu).
-We also thanks our Professor Peter Chin and Teacher Assistant Andrew Wood for supervising our work.
+This project is part of a 2021 Artificial Intelligence Class project (at Boston University CS664).
+The code has been realized by Anirudh Mandahr (anirudh1@bu.edu) and Marvin Martin (marvtin@bu.edu).
+
 
 
 
