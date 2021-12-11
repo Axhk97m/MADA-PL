@@ -11,9 +11,9 @@ input:
 
 model:
   type : MADA # MADA, DANN, DCNN
-  backbone: resnet18 #resnet18, resnet34, resnet152
+  backbone: resnet34 #resnet18, resnet34, resnet152
   pretrained_backbone: imagenet # if not imagenet then not pretrained
-  n_layers_freeze: 0 # Depends on your backbone
+  n_layers_freeze: 3 # Depends on your backbone
   class_classifier: linear2_dr2_bn  # linear2_dr2_bn, linear2_bn, linear3_bn2_v1, linear3_bn2_v2
   domain_classifier: linear2_bn
 
@@ -31,7 +31,7 @@ training:
     gamma: 10
     beta: 0.75
   batch_size: 64
-  epochs: 60
+  epochs: 65
 
 seed: 8888 #random seed for reproducibilty
 
